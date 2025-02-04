@@ -1,3 +1,4 @@
+#**Tiki Product Scraper**
 ## 1. Giới thiệu
 
 Dự án này tập trung vào việc xử lý dữ liệu sản phẩm và triển khai môi trường tính toán trên Google Cloud Platform (GCP). Mục tiêu chính là thu thập, xử lý và phân tích dữ liệu nhằm hỗ trợ các quyết định kinh doanh.
