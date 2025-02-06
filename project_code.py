@@ -56,6 +56,7 @@ async def fetch_product(session, product_id, max_retries=5):
             retries += 1
             await asyncio.sleep(backoff_factor * (2 ** retries))
         except Exception as e:
+            logging.info(f"Product ID: {product_id}")
             logging.info(f"Unexpected error: {e}. Retrying...")
             retries += 1
             await asyncio.sleep(backoff_factor * (2 ** retries))
@@ -94,45 +95,59 @@ def split_list(lst, batch_size):
         yield lst[i:i + batch_size]
 
 # Hàm lưu dữ liệu vào file JSON
-async def save_to_json(data, file_index):
+async def save_to_json(data, file_index, error=False):
     filename = f"products_{file_index}.json"
     async with aiofiles.open(filename, "w", encoding="utf-8") as f:
         await f.write(json.dumps(data, indent=4, ensure_ascii=False))
     logging.info(f"Saved to: {filename}")
 
+#Tạo checkpoint để lưu các product_id đã duyệt qua phòng khi crash
+async def save_checkpoint(processed_ids):
+    with open("checkpoint.json", "w") as f:
+        json.dump(processed_ids, f)
+    logging.info(f"Checkpoint saved")
+
+async def load_checkpoint():
+    if os.path.exists("checkpoint.json"):
+        with open("checkpoint.json", "r") as f:
+            return json.load(f)
+    return []
+
 # Chạy toàn bộ quy trình
 async def main():
-    # 1. Đọc danh sách product_id từ file Excel
-    df = pd.read_excel("products-0-200000.xlsx", engine="openpyxl")
+        # 1. Đọc danh sách product_id từ file Excel
+        df = pd.read_excel("products-0-200000.xlsx", engine="openpyxl")
 
-    # 2. Lấy cột chứa product_id
-    product_ids = df.iloc[:, 0].astype(str).tolist()
+        # 2. Lấy cột chứa product_id
+        product_ids = df.iloc[:, 0].astype(str).tolist()
 
-    #Lấy 200000 sản phẩm để bắt đầu cào
-    product_ids = product_ids[:100]
+        # Lấy 200000 sản phẩm để bắt đầu cào
+        product_ids = product_ids[:100]
 
-    logging.info(f"Total products (for testing): {len(product_ids)}")
+        # 2.1. Kiểm tra checkpoint (nếu có)
+        processed_ids = await load_checkpoint()
 
-    # 4. Chia thành từng batch
-    batches = list(split_list(product_ids, BATCH_SIZE))
+        logging.info(f"Total products (for testing): {len(product_ids)}")
 
-    all_failed_products = []  # Danh sách lỗi tổng
+        # 4. Chia thành từng batch
+        batches = list(split_list(product_ids, BATCH_SIZE))
 
-    # 5. Tải dữ liệu theo batch
-    for index, batch in enumerate(tqdm(batches, desc="Fetching data")):
-        product_data, failed_products = await fetch_all_products(batch)
+        all_failed_products = []  # Danh sách lỗi tổng
 
-        # Lưu các sản phẩm hợp lệ
-        if product_data:
-            await save_to_json(product_data, f"{index+1}")
+        # 5. Tải dữ liệu theo batch
+        for index, batch in enumerate(tqdm(batches, desc="Fetching data")):
+            product_data, failed_products = await fetch_all_products(batch)
 
-        # Lưu sản phẩm lỗi
-        all_failed_products.extend(failed_products)
+            # Lưu các sản phẩm hợp lệ
+            if product_data:
+                await save_to_json(product_data, f"{index+1}")
+                processed_ids.extend([data['id'] for data in product_data])
+                
+            # Lưu sản phẩm lỗi
+            all_failed_products.extend(failed_products)
 
-    # 6. Lưu danh sách lỗi vào file riêng nếu có lỗi
-    if all_failed_products:
-        await save_to_json(all_failed_products, "errors")
-        logging.info(f"⚠️ Save errors to errors.json")
+            # Lưu checkpoint
+            await save_checkpoint(processed_ids)
 
 
 
