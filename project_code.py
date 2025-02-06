@@ -7,6 +7,9 @@ from tqdm import tqdm
 import pandas as pd
 import random
 import nest_asyncio
+import logging
+import os
+
 
 # API endpoint
 API_URL = "https://api.tiki.vn/product-detail/api/v1/products/{}"
@@ -22,9 +25,10 @@ def clean_description(text):
     text = re.sub(r'\s+', ' ', text).strip()  # Xóa khoảng trắng thừa
     return text
 
-async def fetch_product(session, product_id, max_retries=3):
+async def fetch_product(session, product_id, max_retries=5):
     url = API_URL.format(product_id)
     retries = 0
+    backoff_factor = 1
     while retries < max_retries:
         try:
             async with session.get(url) as response:
@@ -40,20 +44,28 @@ async def fetch_product(session, product_id, max_retries=3):
                     }
                 elif response.status == 429:
                     retry_after = int(response.headers.get('Retry-After', random.randint(3, 10)))
-                    print(f"Rate limit hit. Retrying after {retry_after} seconds...")
+                    logging.info(f"Product ID: {product_id}")
+                    logging.info(f"Rate limit hit. Retrying after {retry_after} seconds...")
                     await asyncio.sleep(retry_after)
                     retries += 1
                 else:
+                    logging.info(f"API returned status {response.status} for product_id {product_id}")
                     return {"id": product_id, "error": f"API returned status {response.status}"}
+        except aiohttp.ClientError as e:
+            logging.info(f"Network error: {e}. Retrying...")
+            retries += 1
+            await asyncio.sleep(backoff_factor * (2 ** retries))
         except Exception as e:
-            return {"id": product_id, "error": str(e)}
+            logging.info(f"Unexpected error: {e}. Retrying...")
+            retries += 1
+            await asyncio.sleep(backoff_factor * (2 ** retries))
     return {"id": product_id, "error": "Max retries exceeded"}
 
 
 # Hàm xử lý lấy dữ liệu theo batch
 async def fetch_all_products(product_ids):
     tasks = []
-    semaphore = asyncio.Semaphore(100)
+    semaphore = asyncio.Semaphore(150)
     async with aiohttp.ClientSession() as session:
         async def bound_fetch(product_id):
             async with semaphore:  # Hạn chế số lượng request đồng thời
@@ -86,7 +98,7 @@ async def save_to_json(data, file_index):
     filename = f"products_{file_index}.json"
     async with aiofiles.open(filename, "w", encoding="utf-8") as f:
         await f.write(json.dumps(data, indent=4, ensure_ascii=False))
-    print(f"Đã lưu: {filename}")
+    logging.info(f"Saved to: {filename}")
 
 # Chạy toàn bộ quy trình
 async def main():
@@ -97,9 +109,9 @@ async def main():
     product_ids = df.iloc[:, 0].astype(str).tolist()
 
     #Lấy 200000 sản phẩm để bắt đầu cào
-    product_ids = product_ids[:10]
+    product_ids = product_ids[:100]
 
-    print(f"Total products (for testing): {len(product_ids)}")
+    logging.info(f"Total products (for testing): {len(product_ids)}")
 
     # 4. Chia thành từng batch
     batches = list(split_list(product_ids, BATCH_SIZE))
@@ -111,7 +123,8 @@ async def main():
         product_data, failed_products = await fetch_all_products(batch)
 
         # Lưu các sản phẩm hợp lệ
-        await save_to_json(product_data, f"{index+1}")
+        if product_data:
+            await save_to_json(product_data, f"{index+1}")
 
         # Lưu sản phẩm lỗi
         all_failed_products.extend(failed_products)
@@ -119,11 +132,31 @@ async def main():
     # 6. Lưu danh sách lỗi vào file riêng nếu có lỗi
     if all_failed_products:
         await save_to_json(all_failed_products, "errors")
-        print(f"⚠️ Đã lưu danh sách lỗi vào errors.json")
+        logging.info(f"⚠️ Save errors to errors.json")
 
-# Chạy chương trình
 
-nest_asyncio.apply() # Apply nest_asyncio to allow nested event loops
 
-if __name__ == "__main__":
-    asyncio.run(main())
+# Tạo thư mục logs nếu chưa có
+os.makedirs("logs", exist_ok=True)
+
+# Cấu hình logging
+log_file = "logs/output.log"
+logging.basicConfig(
+    filename=log_file,
+    level=logging.INFO,  # Ghi từ INFO trở lên
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
+# Ghi log
+logging.info("Start")
+try:
+   nest_asyncio.apply() # Apply nest_asyncio to allow nested event loops
+   asyncio.run(main())
+except ZeroDivisionError as e:
+    logging.error(f"Error: {e}")
+
+logging.info("END")
+
+
+
