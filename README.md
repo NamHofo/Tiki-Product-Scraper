@@ -6,7 +6,7 @@
 
 - **Tên dự án:** Project 02 - Tiki Product Scraper
 - **Ngày bắt đầu:** 03/02/2025
-- **Ngày hoàn thành:** //2025
+- **Ngày hoàn thành:** 06/02/2025
 - **Công cụ sử dụng:** Google Cloud Platform (GCP), Python, gcloud CLI, aiohttp, pandas, openpyxl, aiofiles, tqdm
 
 ---
