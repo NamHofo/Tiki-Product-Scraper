@@ -1,5 +1,17 @@
 # **Project 02: Tiki Product Scraper**
 
+## **Chức Năng Chính**
+
+1. **Thu Thập Dữ Liệu Sản Phẩm**:
+    - Mỗi sản phẩm được truy xuất qua API với `product_id`, và các thông tin như tên, giá, mô tả, và hình ảnh được thu thập.
+    - Dữ liệu thu thập được được lưu dưới dạng file JSON.
+2. **Quản Lý Rate Limit và Lỗi**:
+    - Hệ thống tự động xử lý **Rate Limit** từ API và có cơ chế retry để tiếp tục thu thập dữ liệu nếu gặp lỗi mạng hoặc lỗi API.
+    - Tất cả các lỗi từ API đều được ghi lại, và các sản phẩm bị lỗi sẽ được lưu riêng biệt để người dùng có thể xử lý sau.
+3. **Checkpoint và Tiếp Tục Sau Khi Bị Crash**:
+    - Hệ thống hỗ trợ **checkpointing**, cho phép lưu lại danh sách các `product_id` đã được xử lý thành công. Điều này giúp tiếp tục thu thập từ điểm bị gián đoạn mà không phải bắt đầu lại từ đầu khi bị crash hoặc dừng đột ngột.
+4. **Chạy Theo Batch**:
+    - Quá trình thu thập dữ liệu được chia thành nhiều **batch** (lô sản phẩm) để tránh quá tải yêu cầu và giúp quản lý việc gửi yêu cầu API hiệu quả.
 ---
 
 ## **1. Thông tin dự án**
@@ -150,6 +162,18 @@ Mã nguồn **code.py** sử dụng Python **asyncio** và **aiohttp** để thu
 - `nest_asyncio.apply()` được sử dụng để hỗ trợ môi trường tương tác.
 
 ---
+## **Hướng Dẫn Sử Dụng**
+
+1. **Chuẩn Bị Dữ Liệu Đầu Vào**:
+    - Tạo một tệp Excel có tên `products-0-200000.xlsx` chứa danh sách các `product_id`. Đây là đầu vào cho chương trình.
+2. **Chạy Chương Trình**:
+    - Để bắt đầu quá trình thu thập dữ liệu, bạn có thể chạy tệp `main.py`:
+3. **Xem Kết Quả**:
+    - Các sản phẩm hợp lệ sẽ được lưu vào các tệp JSON, mỗi tệp tương ứng với một batch sản phẩm.
+    - Các sản phẩm bị lỗi sẽ được lưu vào các tệp JSON khác với tên tương ứng, ví dụ: `errors_1.json`.
+4. **Tiếp Tục Sau Khi Bị Crash**:
+    - Nếu chương trình bị gián đoạn giữa chừng (do crash, timeout, v.v.), các `product_id` đã được xử lý thành công sẽ được lưu lại trong tệp `checkpoint.json`.
+    - Khi chạy lại chương trình, nó sẽ kiểm tra và tiếp tục từ điểm dừng của lần chạy trước mà không cần xử lý lại các sản phẩm đã hoàn thành.
 
 ## **6. Kết luận**
 
