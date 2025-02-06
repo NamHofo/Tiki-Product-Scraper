@@ -74,48 +74,17 @@ Dự án này nhằm mục đích tải thông tin chi tiết của **200,000 s�
 
 ### **4.1. Kết nối tới VM trên Google Cloud**
 
-```
- gcloud compute ssh hofnam-vm --zone=us-central1-c --ssh-flag="-p 2222"
-```
-
 ### **4.2. Upload file chứa danh sách ID lên VM**
-
-```
-gcloud compute scp products-0-200000.xlsx hofnam-vm:~ --zone=us-central1-c --scp-flag="-P 2222"
-```
 
 ### **4.3. Tạo môi trường ảo để chạy code trên VM**
 
-```
-python3 -m venv myenv
-```
-
 ### **4.4. Upload file code lên VM**
-
-```
-gcloud compute scp code.py hofnam-vm:~ --zone=us-central1-c --scp-flag="-P 2222"
-```
 
 ### **4.5. Kích hoạt môi trường ảo**
 
-```
-source myenv/bin/activate
-```
-
 ### **4.6. Cài đặt các thư viện cần thiết trên VM**
 
-```
-sudo apt update && sudo apt upgrade -y
-sudo apt install -y python3 python3-pip git
-pip3 install aiohttp pandas openpyxl aiofiles tqdm
-```
-
 ### **4.7. Chạy chương trình bằng lệnh nohup để chạy nền**
-
-```
-nohup python3 code.py > output.log 2>&1 &
-```
-
 ---
 
 ## **5. Mô tả về mã nguồn (code.py)**
@@ -160,6 +129,12 @@ Mã nguồn **code.py** sử dụng Python **asyncio** và **aiohttp** để thu
 
 - Sử dụng `asyncio.run(main())` để thực thi chương trình.
 - `nest_asyncio.apply()` được sử dụng để hỗ trợ môi trường tương tác.
+### **5.8. Kiểm tra và lưu checkpoint**
+
+- Để tránh mất dữ liệu khi chương trình gặp sự cố hoặc crash, mã nguồn có thêm tính năng lưu checkpoint, ghi lại danh sách các `product_id` đã được xử lý. Sau đó, chương trình có thể tiếp tục từ checkpoint nếu gặp sự cố:
+### **5.9. Quản lý log**
+
+- Chương trình sử dụng thư viện `logging` để ghi lại các thông tin quan trọng trong quá trình thực thi, chẳng hạn như số lượng sản phẩm đã thu thập, các lỗi gặp phải, và các thông tin hữu ích khác. Log được lưu vào file `logs/output.log`.
 
 ---
 ## **Hướng Dẫn Sử Dụng**
