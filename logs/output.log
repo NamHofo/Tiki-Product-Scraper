@@ -1,72 +1,1489 @@
-2025-02-06 21:36:47 - INFO - Start
-2025-02-06 21:37:24 - INFO - Start
-2025-02-06 21:37:27 - INFO - Total products (for testing): 100
-2025-02-06 21:37:27 - INFO - Product ID: 174287389
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 160814241
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 6 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 157943579
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 7 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 214008360
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 4 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 153413535
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 5 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 1391347
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 5 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 43755849
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 245323425
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 7 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 213678772
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 4 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 174280494
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 4 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 158210295
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 8 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 51844790
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 79709163
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 212054372
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 5 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 171618108
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 5 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 167750518
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 8 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 170337343
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 7 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 164361837
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 6 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 168663152
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 36376636
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 4 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 139457475
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 855162
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 216178735
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 10 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 145562720
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 7 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 145673600
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 5 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 135390778
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 4 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 214009046
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 3 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 178092987
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 4 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 251546916
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 6 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 196015143
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 10 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 138838287
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 10 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 178596691
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 9 seconds...
-2025-02-06 21:37:27 - INFO - Product ID: 253116803
-2025-02-06 21:37:27 - INFO - Rate limit hit. Retrying after 5 seconds...
-2025-02-06 21:37:37 - INFO - Saved to: products_1.json
-2025-02-06 21:37:37 - INFO - Checkpoint saved
-2025-02-06 21:37:37 - INFO - END
+2025-02-18 20:23:52 - INFO - Start
+2025-02-18 20:23:53 - INFO - Total products (for testing): 1000
+2025-02-18 20:23:54 - INFO - Product ID: 214008289 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 235732186 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 103637219 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 216178735 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 225385243 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 164361837 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 154529527
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 51844790
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 174342096 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 191463934
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 67029322
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 214006896
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 143061027
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 215101707
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 139457787
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 168004956
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 150509493
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 36376636
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 43755849
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 2758335
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 184669779
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 205930779
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 214008668
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 160814241 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 74892021
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 192692807
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 194212256
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 213678772
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 130978358 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 75331097
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 214008432
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 152738111
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 213678732
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 206303845
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 139457475
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 79709163
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 251546916
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 190608158
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 253117062
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 245323425
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 214007120
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 235728525
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 222322077
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 145673600
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 125244519
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 253266713
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 158409197
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 203862292
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 213678621
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 178596691 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 164379838
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 103545051
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 174163144
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 214008786
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 144756298
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 154530234 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 34423196
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 173419596
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 74897599 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 213527833
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 214008201
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 213705539
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 75381117
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 146479789
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 222309908
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 213678661 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 214006797
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 198933052
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 136154121
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 64731425
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 152738106
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 186886481
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 193513488
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 177994992
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 184319033 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 215101775
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 73464882
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 163022779
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 108092449
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 252356385
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 56420137
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 77679596
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 195284121
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 193124408
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 158709609
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 52462077
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 184589216
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 106604822
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 73378458
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 145562720 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 136350432
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 76600311
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 179156244
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 113047674
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 197334787 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 201525471 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 178092987 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 252069617 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 855162 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 48115056
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 139460159
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 179805786 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 214007535
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 24780272
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 158210295 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 67029245 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 99834160 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 252069974
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 157943579 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 176464521 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 58510250 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 138083218
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 133005345 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 59173682
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 75378593 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 74907796
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 156644981 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 178083976 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 253116803 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 170337343 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 167750518 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 179970479 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 138838287 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 253881297
+2025-02-18 20:23:54 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:54 - INFO - Product ID: 196015143 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 139460205 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 212054372 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 135390778 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 75378750 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 212054460 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 166405895 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 1391347 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 204037726 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 2758623 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 167513137 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 225255034 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 75378756 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 106870100 successed!
+2025-02-18 20:23:54 - INFO - Product ID: 203202280 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 140420532 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 216382694 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 123441327 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 186254941
+2025-02-18 20:23:55 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:55 - INFO - Product ID: 181770298 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 50735384
+2025-02-18 20:23:55 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:55 - INFO - Product ID: 153413535 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214690892 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 191463903 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 154155413 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 252177965
+2025-02-18 20:23:55 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:55 - INFO - Product ID: 214006984 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 167387981 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 171618108 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 174287389 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 139457837 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214009046 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 201509082 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 156300041
+2025-02-18 20:23:55 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:55 - INFO - Product ID: 68737121
+2025-02-18 20:23:55 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:55 - INFO - Product ID: 168663152 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 88993037 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 146457002 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 43084631 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 150509465 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 178319679 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 215101820 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 192850997 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 154530205 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 192683653 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 121248640 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214007708 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 174280494 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 143921372 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214006547 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214007670 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 217577518 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 19775670 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 13766282 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 247718784 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 64730476 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214008360 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214008464 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 148696419 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 191463893 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214008168 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 191463839 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 148626090 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 225255048 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214008271 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 125735532 successed!
+2025-02-18 20:23:55 - INFO - API returned status 404 for product_id 202719601
+2025-02-18 20:23:55 - INFO - Product ID: 214007259 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 197070050 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 117385260 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 214007196 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 252850501 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 221276744 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 195709473 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 191463912 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 165984298 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 208404109 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 208784147 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 247933359 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 134939548 successed!
+2025-02-18 20:23:55 - INFO - Product ID: 104261356
+2025-02-18 20:23:55 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:56 - INFO - Product ID: 55885915 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 150509441 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 78509906 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 8078800 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 121709444 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 205996226 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 192714411 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 134657361 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 212318886 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 164796699 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 204050271 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 155354676 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214007514 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 167952395 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 74844985 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214007566 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 208916888 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214232152 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 140992632 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214006905 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 208413351 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 193124366 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 49862886 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 153981210 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 168230747 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 173425043 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 186967546 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 150376825 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 87960221 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 252354757 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 203944149 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 213678750 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 183930504 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 215101742 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 213678623 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 99834190 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 54876380 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 172936280 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 167359953 successed!
+2025-02-18 20:23:56 - INFO - API returned status 404 for product_id 154530131
+2025-02-18 20:23:56 - INFO - Product ID: 213678736 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 174258673 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 199727753 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214008666 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 199124927 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 139461086 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 208264628 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 118243361 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 188145788 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214008675 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 843695 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214008862 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 217564392 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 252131553 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 214007309 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 171666530 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 130855255 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 252103741 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 212054408
+2025-02-18 20:23:56 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:56 - INFO - Product ID: 196052014 successed!
+2025-02-18 20:23:56 - INFO - Product ID: 174068192 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 171618083 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 127617839 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 155314490 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 170337341 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 212054436 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 152475834 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 147918402 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 139457936 successed!
+2025-02-18 20:23:57 - INFO - API returned status 404 for product_id 215162868
+2025-02-18 20:23:57 - INFO - Product ID: 213672339 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 216010481 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 139053107 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 127220655 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 54472523 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 214007136 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 155265712 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 252069964 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 57665756 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 213678629 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 167858009 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 2758737 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 202450686 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 202421267 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 248799588 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 213678714 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 194146920 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 73464882
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 52462077
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 179156244
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 68603107
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 252356385
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 200970149 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 214008387 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 213678696 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 201292086 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 253867378
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 183896516 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 246864834 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 205040003 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 139457802 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 139202711 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 213705531 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 146447981
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 149573995 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 209257026
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 150726093 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 181910579 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 152100326
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 140148551 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 116118554 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 189539430 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 192986184 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 188656078 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 200868045
+2025-02-18 20:23:57 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:57 - INFO - Product ID: 201508999 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 208413497 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 148022129 successed!
+2025-02-18 20:23:57 - INFO - API returned status 404 for product_id 214841295
+2025-02-18 20:23:57 - INFO - Product ID: 52289591 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 248741536 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 139458720 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 142991120 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 191463822 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 183719033 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 214007139 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 155356297 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 150509443 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 167595071 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 214006540 successed!
+2025-02-18 20:23:57 - INFO - Product ID: 213678716 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 182563542 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 23039871 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214232539 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 177942319
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 150509381
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 203860849 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 158783421 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 54551661 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 148938772 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 139457570 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 205930779 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214008194 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214006819 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 67029322 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214008668 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 164379824
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 252130255 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 213678621 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 62679247 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 213678772 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 35578116 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 159034489
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 43755849
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 74892021
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 162241636 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214007069 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 151955095 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 20856534
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 148698969 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214008049 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 108092449 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214007679 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 75381117 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 184314995 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 47422932
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 184284278 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 213678610 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 139458946 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 139462110 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 188844340 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 183725687 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 117570799 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 158389754 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214007106 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 213678631 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 181423334 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 208260577 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 214008016
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 229700880
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 213678734 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 179776464
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 138833658 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 53256949 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 208413380 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 179226799 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 150509485 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 59410596 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 150509449 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 25140597
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 253107164
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 99834180 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 179912730 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 20366405
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 72913355 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 203872103 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 51844790 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 250461090 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 87030386 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 192692807 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 195775702 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 52338722 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 113047701
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:58 - INFO - Product ID: 174625382 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 89591425 successed!
+2025-02-18 20:23:58 - INFO - Product ID: 248932361
+2025-02-18 20:23:58 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 99834150 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 245323425 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214008201 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 155355923 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 167373688 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 193665986
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 35921775 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 250338769 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214231494 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 68736658 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 184318147 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 248799730 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214006893 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 73378458 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 186886481 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 173286273 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 212054444 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 225208484 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214007114 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 150880890 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214006896
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 191463934 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 136154121 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 150509433 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 133092790 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 144756294 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 76600311 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 212054360 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214007749 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 195284121
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 139461598 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 181799629 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 191463867 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 252868819 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 213678619 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 167374798 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 179226404 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 173425092
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 221264409 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 149573999 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 213678724 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 144482818 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 139457454 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 169774145 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 173718207 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 155355804 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 59173682 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 184429752 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 1391361 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 208257303 successed!
+2025-02-18 20:23:59 - INFO - API returned status 404 for product_id 253041020
+2025-02-18 20:23:59 - INFO - Product ID: 253881297 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 169408811 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 208390656 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 34482975 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 140418988 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 46217325 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 214007871 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 41881443 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 8078866
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 100901845 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 19698324
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 49651898
+2025-02-18 20:23:59 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:23:59 - INFO - Product ID: 214008228 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 104806750 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 48110607 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 1481125 successed!
+2025-02-18 20:23:59 - INFO - Product ID: 199036749 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 171618090 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 47143913 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 212054438 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 198933052 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 182739320 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 235728954 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 148075259 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 184094104 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 262059064 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 249728381 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 147918683 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 216210108 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 136540050 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 181694703 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 253134659
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 103545051 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 14885441 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 180937092 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214006486 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 155355799 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 146381260 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 208264969 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214008560
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 196562199 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 173419596
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 159786708 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 140148377
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 173540325
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 180007171 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214007611 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214007574 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 192960848 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 53628491
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 208603504
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 186254941 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 253088712 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 17923768 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 173889054
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 201215320 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 254090497 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 202664330
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 249206383
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 58740581 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 48899139 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214007752 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 167374531 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 140148217
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 219456867 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 252069341 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 212054418 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 182739383 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 174283613 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 134332490 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 143612839 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 156300041 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 156647323 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 133092343 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 154529527 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 217548869 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 208062151
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 222621866
+2025-02-18 20:24:00 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:00 - INFO - Product ID: 184669779 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 110169464 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 105674695 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 48306752 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 199641287 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 143061027 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214007120 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 133792426 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 25982780 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 214007855 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 115783623 successed!
+2025-02-18 20:24:00 - INFO - Product ID: 179372092 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214007484 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 137417093 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 141289973 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 208413582 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 152618982 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 247582177 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 948733 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 64731425 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 252316811 successed!
+2025-02-18 20:24:01 - INFO - API returned status 404 for product_id 252177965
+2025-02-18 20:24:01 - INFO - Product ID: 208413421 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214006604 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 56819130 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 125500575 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 56866226 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 164379898 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 118209005 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 75378541 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214008380 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 79709163 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 34423196 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 139456888
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 196146496
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 214008432
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 206303845
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 252069349 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 158409197 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 213527833
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 174163144
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 139564407
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 160221263
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 158709609 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 49651882 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 139458662 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 152738106 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 197674102 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 103525921 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214007320 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214007370
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 182739346 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 53522813
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 150509429 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 213705543 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 149195003 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 116117723 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 140148007 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 244177611
+2025-02-18 20:24:01 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:01 - INFO - Product ID: 132812551 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214007867 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 253247878 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 62760925 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 153981408 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 152100326 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 52387023 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 182739338 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 132995894 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214007238 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 200868045 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 53041354 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 54609134 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 195987463 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 174310437 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 214008694 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 179712422 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 53598765 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 253117062 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 167387605 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 182739391 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 192851023 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 148680032 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 235728525 successed!
+2025-02-18 20:24:01 - INFO - Product ID: 213705539 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 160447578 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 214008767 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 12237643 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 192714376
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 242172724 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 150509381 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 140418904 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 8078824 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 214008353 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 75378752 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 222309908 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 104309806 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 214008235 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 43183568 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 184589216 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 143468095 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 75331097 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 252069333 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 190608158 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 193334642
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 139457787 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 203991687 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 145673600
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 214006419
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 203862292
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 214008786 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 164249986
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 173015067 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 184318295 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 19757401
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 139460159 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 186435446 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 214147637
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 106604822 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 136350432
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 155354789
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 65390509 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 101455421
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 136713654 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 50597889 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 130031450
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 184836845 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 150711989 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 252103841 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 169774332 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 51074400 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 176711828 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 172158743
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 161218418 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 201089341 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 212054428 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 221264407 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 152738096 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 196562207
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 213678655 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 74907796
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 212054354 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 212054348 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 154530346 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 31708410
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 253107164 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 173540295 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 179493184 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 38450910
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 136839529 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 144342501 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 186630561 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 217498292 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 247960121 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 214006712 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 57927850
+2025-02-18 20:24:02 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:02 - INFO - Product ID: 147004045 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 56440702 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 214008972 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 204421274 successed!
+2025-02-18 20:24:02 - INFO - Product ID: 213678596 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 54919227 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 104261356 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 36329573 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 199621945 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 150509475 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 140628433 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 44273612
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 167551342 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 185400440
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 139461870 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 174172393 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 235599295 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 242665031
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 175422809 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 150509493 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 174029683 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 214006518 successed!
+2025-02-18 20:24:03 - INFO - API returned status 404 for product_id 251921456
+2025-02-18 20:24:03 - INFO - Product ID: 36376636 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 139457475 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 194212256 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 215129162 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 213796093 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 152738111 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 213678732
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 168004956 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 159034489
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 1391389 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 123956420
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 253266713 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 164379838 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 249828513
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 184294558 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 177994992
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 174198751 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 77679596
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 217726101
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 163162419 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 214007535 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 195284121 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 195991308 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 169716577 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 217779440
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 112460251 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 215101775 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 213927528
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 146479672 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 214008827 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 164379888 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 215589023
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 36582866
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 138083218 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 48224635 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 216135984
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 209318812 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 214008362 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 25140597 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 174427078 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 139459225 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 165182341 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 212054380 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 215217942
+2025-02-18 20:24:03 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:03 - INFO - Product ID: 173424769 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 48508271 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 214008484 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 5750467 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 160435590 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 171073562 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 73509323 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 212054408 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 171618103 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 178319440 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 50735384 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 215101827 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 139460253 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 59315033 successed!
+2025-02-18 20:24:03 - INFO - Product ID: 106869941 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 181219412 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 158224493 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 19407028 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 246857361 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 253117713 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 143227101 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 55738927
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 193665986 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 174301214 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 199243405 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 139457335 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 207957101 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 167578170 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 198245938 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 193124338 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 208255996 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 113047674 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 68737121
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 2758335 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 215101707
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 222322077
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 123441229 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 217719265 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 180938560 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 217726185 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 189387927 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 214006896 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 144756298 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 220683570
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 146479789
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 217719260
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 193513488 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 217780022 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 220683554
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 193124408
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 68603107 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 214006797
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 139564407
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 220683798
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 56420137
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 220683303
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 52462077 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 253400243 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 217719487 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 205162962
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 208603504 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 24780272 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 173889054 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 205173510
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 216903076
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 216903242
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 252069974 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 205189206 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 202664330 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 216136538 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 207957041 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 216139010 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 191298275 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 173401219 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 192952416
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 94726927 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 196051429 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 252892501 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 86406683 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 253044247 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 162520261 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 181809469 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 187644041 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 177545647 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 208062151
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 220683776 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 8078866 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 55579342 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 73575174 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 244300050 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 260644096
+2025-02-18 20:24:04 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:04 - INFO - Product ID: 217719363 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 220683593 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 220683505 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 217779615 successed!
+2025-02-18 20:24:04 - INFO - Product ID: 216136496 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 26348436 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 205162438 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 246770441 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 192952398 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 214584396 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 207956916 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 214766255 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 215217946 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 196051182 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 259317068 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 173428833 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 192952378 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 259316968
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 136293071 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 173428803 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 198692028 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 125244519 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 191268961 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 253331625
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 253134659 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 74892021 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 262030467
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 217719253
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 251546916 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 131392586 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 242717437 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 214008560 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 43755849 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 217779394 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 220683760 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 217779715
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 163022779 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216903089 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 217719371 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 252356385
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 220683496 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 246729670 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216473223 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 48115056 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216136103 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216136002 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 146447981 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 244177611 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 192952438 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 217719228
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 204669460 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 217779517
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 204942178 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 196051174 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 173401221 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 207956936 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 37796025 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 127599579 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 177545683 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 55578650 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 257773474
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 225207980 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 173401198 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216136541
+2025-02-18 20:24:05 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:05 - INFO - Product ID: 220683750 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 207719663 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 251744038 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 252052430 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216903259 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 220683582 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 257773457 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216138958 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216136404 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216139021 successed!
+2025-02-18 20:24:05 - INFO - Product ID: 216138964 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 216138993 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 216136323 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779433
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 216136297 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 216903120 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 216138994 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 177942319 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 225207762 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 216473371 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 263098049 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217780024 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 214760976 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 247780035 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 214008432 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 262605589 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 262699544 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779824 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 225207977 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217725694 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683771 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217726157 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217726166 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217726188 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779872 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217719335 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779604
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 217725968 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 173540325 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683676 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 19757401
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 217725967 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683632 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 179156244
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 155354789
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 217725635 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217725880 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 257773452 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779722 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 216138947 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217726163 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 259317038 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217725696 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 253867378 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683335 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 113047701 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 209257026 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 205330207
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 250096499 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779803 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217725740 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779728 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 262388498 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 11107442
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 220683434 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 225207752 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217779461 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 244307672 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 263098070
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 262891847 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217720730 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 222682251 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683740 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217719243
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 7 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 20366405
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 217726112 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 217780028 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 262605521
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 217720770 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 213887420
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 3 seconds...
+2025-02-18 20:24:06 - INFO - Product ID: 217726025 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683377 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 220683811 successed!
+2025-02-18 20:24:06 - INFO - Product ID: 177545673
+2025-02-18 20:24:06 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 217725572 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779935 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 220683299 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779723 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779571 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217725578 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779913 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217725829 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779911 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779498 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 220683829 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779689 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779688 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 164379824 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217721117 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 213678732 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 188446279
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 217779734 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217726048 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 173419596 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217726080 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 220683408 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779410 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 145673600 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 216138914
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 220683347 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779654 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 203862292
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 73464882 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 206303845 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 42839399
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 136350432 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 216135928
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 4 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 220683405 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 169265001
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 217779434 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779909 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217779880 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 249206383 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217725700 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 205327037 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 217719325 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 220683425 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 205327002 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 246623943 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 105676739 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 205327089 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 246766305 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 205850703
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 6 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 216139106 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 229700880 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 216136044 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 94727397 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 216135931 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 216139030
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 9 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 76298263 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 25985162 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 49651898 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 146569117 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 76298252 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 173428592 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 262605519
+2025-02-18 20:24:07 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:07 - INFO - Product ID: 207956906 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 196051427 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 19698324 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 214584398 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 197828159 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 46203567 successed!
+2025-02-18 20:24:07 - INFO - Product ID: 158720827 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 260237117
+2025-02-18 20:24:08 - INFO - Rate limit hit. Retrying after 8 seconds...
+2025-02-18 20:24:08 - INFO - Product ID: 248932361 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 123962660 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217719261 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 249828479 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 220683556 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217719359 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 220683461 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217726092 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217725667
+2025-02-18 20:24:08 - INFO - Rate limit hit. Retrying after 5 seconds...
+2025-02-18 20:24:08 - INFO - Product ID: 220683493 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 44273612
+2025-02-18 20:24:08 - INFO - Rate limit hit. Retrying after 10 seconds...
+2025-02-18 20:24:08 - INFO - Product ID: 217719383 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216473261 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217719303 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217779655 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 151708302 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 220683497 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217719417 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 251929207 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 76298250 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 205328632 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 48013326 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 246770161 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 260644098 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 25984584 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216139065 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 214006419 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 20856534 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 196051593 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 214147637 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 215589023 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216136000 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 173429069 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 215217948 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 49379596 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 259317000 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 252401059 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 173428623 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 171659525 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 254085283 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 257773453 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216136793 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216138970 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217719422 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216136695 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 262605547 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 257773470 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 225207828 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 216139027 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 222621866 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 254088166 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 215217942 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 254080775 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 252061819 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 225207779 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 253089549 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 251442439 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 220683617 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 257773458 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217195909 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217779934 successed!
+2025-02-18 20:24:08 - INFO - Product ID: 217725973 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 260644096 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779884 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217725878 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 220683641 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217725557 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779784 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779473 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217720599 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779446 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779708 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217725584 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217725797 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 220683621 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217725807 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217725737 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 196146496 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 220683303 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217720677 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 101455421 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779579 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 213527833 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 55738927 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 179776464 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 47422932 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 185400440 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 242665031 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 36582866 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 164249986 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 140148377 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 214008016 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 139564407 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 74907796 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 179156244 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 192714376 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 220683570 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 173425092 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 205173510 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 56420137 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 216903242 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 217779517 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 208062151 successed!
+2025-02-18 20:24:09 - INFO - Product ID: 57927850 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 213887420 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 159034489 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 160221263 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 53628491 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 140148217 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 172158743 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 192952416 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 38450910 successed!
+2025-02-18 20:24:10 - INFO - Product ID: 263098070 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 193334642 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 222322077 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 139456888 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 174163144 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 217726101 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 77679596 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 146479789 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 53522813 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 220683798 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 216135928 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 42839399 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 214007370 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 19757401 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 216135984 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 11107442 successed!
+2025-02-18 20:24:11 - INFO - Product ID: 257773474 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 177545673 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 262030467 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 123956420 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 217719253 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 249828513 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 177994992 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 203862292 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 217719260 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 220683554 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 130031450 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 155354789 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 196562207 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 31708410 successed!
+2025-02-18 20:24:12 - INFO - Product ID: 262605519 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 217725667 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 259316968 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 68737121 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 215101707 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 214006797 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 217779715 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 217779440 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 213927528 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 205850703 successed!
+2025-02-18 20:24:13 - INFO - Product ID: 217719243 successed!
+2025-02-18 20:24:14 - INFO - Product ID: 193124408 successed!
+2025-02-18 20:24:14 - INFO - Product ID: 205162962 successed!
+2025-02-18 20:24:14 - INFO - Product ID: 216903076 successed!
+2025-02-18 20:24:14 - INFO - Product ID: 217719228 successed!
+2025-02-18 20:24:14 - INFO - Product ID: 216136541 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 217779433 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 188446279 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 253331625 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 252356385 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 205330207 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 20366405 successed!
+2025-02-18 20:24:15 - INFO - Product ID: 262605521 successed!
+2025-02-18 20:24:16 - INFO - Product ID: 260237117 successed!
+2025-02-18 20:24:16 - INFO - Product ID: 217779604 successed!
+2025-02-18 20:24:16 - INFO - Product ID: 216139030 successed!
+2025-02-18 20:24:17 - INFO - Product ID: 216138914 successed!
+2025-02-18 20:24:17 - INFO - Product ID: 169265001 successed!
+2025-02-18 20:24:18 - INFO - Product ID: 44273612 successed!
+2025-02-18 20:24:18 - INFO - Saved to: products_1.json
+2025-02-18 20:24:18 - INFO - Checkpoint saved
+2025-02-18 20:24:18 - INFO - END

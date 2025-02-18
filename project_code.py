@@ -33,6 +33,7 @@ async def fetch_product(session, product_id, max_retries=5):
         try:
             async with session.get(url) as response:
                 if response.status == 200:
+                    logging.info(f"Product ID: {product_id} successed!"),
                     data = await response.json()
                     return {
                         "id": data.get("id"),
@@ -122,7 +123,7 @@ async def main():
         product_ids = df.iloc[:, 0].astype(str).tolist()
 
         # Lấy 200000 sản phẩm để bắt đầu cào
-        product_ids = product_ids[:100]
+        product_ids = product_ids[:1000]
 
         # 2.1. Kiểm tra checkpoint (nếu có)
         processed_ids = await load_checkpoint()
